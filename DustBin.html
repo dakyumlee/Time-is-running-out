@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Is Running Out</title>
+  <link rel="stylesheet" href="./DustBin.css">
+</head>
+<body>
+  <header>
+    <h1><a href="TimeisRunningOutMain.html">Time is running out</a></h1>
+    <nav>
+      <a href="TimeChallenge.html">Time challenge</a>
+      <a href="MusicExperience.html">music Experience</a>
+      <a href="TimeManagementTips.html">Time Management Tips</a>
+      <a href="DustBin.html">dust bin</a>
+    </nav>
+  </header>
+  <main>
+    <div class="box">
+      <h1>Your emotional trash can</h1>
+      <label for="username" style="color:#515D73; padding:20px">name:</label>
+      <input type="text" id="username" />
+      <label for="content"  style="color:#515D73; padding:20px">What is your trouble?:</label>
+      <input type="text" id="content" />
+      <button type="button" onclick="tableWrite()" style="margin-bottom: 20px">
+            작성
+      </button>
+          <table border="1px" style="color:#515D73;">
+            <tr>
+              <td class="td1">Number</td>
+              <td class="td2">Who am I</td>
+              <td class="td3">What I want to say</td>
+              <td class="td4">When did you think of this</td>
+            </tr>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        </main>
+  <script src="DustBin.js"></script>
+</body>
+</html>

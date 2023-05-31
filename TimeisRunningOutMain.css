@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'KimjungchulMyungjo-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #D7D7D9;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  padding: 1rem;
+  color: #D7D7D9;
+  background-color: #515D73;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1  {
+  margin: 0;
+  font-family: 'KimjungchulMyungjo-Bold';
+}
+
+a {
+  text-align: center;
+  color: #D7D7D9;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'KimjungchulMyungjo-Bold';
+}
+
+a:hover {
+  color: #8694A6;
+}
+
+h2 {
+  font-family: 'KimjungchulMyungjo-Bold';
+  color: #515D73;
+  width: 95%;
+  height: 50vh;
+  margin: 10px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

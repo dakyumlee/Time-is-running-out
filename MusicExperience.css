@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'KimjungchulMyungjo-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #D7D7D9;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  padding: 1rem;
+  color: #D7D7D9;
+  background-color: #515D73;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1  {
+  margin: 0;
+  font-family: 'KimjungchulMyungjo-Bold';
+}
+
+a {
+  text-align: center;
+  color: #D7D7D9;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'KimjungchulMyungjo-Bold';
+}
+
+a:hover {
+  color: #8694A6;
+}
+
+h2 {
+  font-family: 'KimjungchulMyungjo-Bold';
+  color: #515D73;
+  width: 95%;
+  height: 50vh;
+  margin: 10px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music  {
+  text-align: center;
+}
+
+button {
+  margin-top: 150px;
+}
+
+.btn :hover {
+letter-spacing: 2px;
+transform: scale(1.2);
+cursor: pointer;
+}
+
+.btn-outline:hover {
+letter-spacing: 2px;
+transform: scale(1.2);
+cursor: pointer;
+}
+
+.btn {
+position: relative;
+border: none;
+display: inline-block;
+padding: 15px 30px;
+border-radius: 15px;
+font-family: 'KimjungchulMyungjo-Bold', sans-serif;
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+text-decoration: none;
+font-weight: 600;
+transition: 0.25s;
+}
+
+.btn-outline {
+position: relative;
+padding: 15px 30px;
+border-radius: 15px;
+font-family: 'KimjungchulMyungjo-Bold', sans-serif;
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+text-decoration: none;
+font-weight: 600;
+transition: 0.25s;
+}
+
+.btn {
+background-color: #D7D7D9;
+color: #515D73;
+}
+
+.btn-outline {
+border: 3px solid #D7D7D9;
+color: #515D73;
+}
+.btn:active {
+transform: scale(1.5);
+}
+
+.btn-outline:active {
+transform: scale(1.5);
+}
+
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #D7D7D9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #D7D7D9;
+  border-radius: 5px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #515D73;
+  border-radius: 5px;
+}
+
+.lyrics {
+  color: #515D73;
+  font-family: 'KimjungchulMyungjo-Bold';
+}

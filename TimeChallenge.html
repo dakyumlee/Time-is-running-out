@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Is Running Out</title>
+  <link rel="stylesheet" href="./TimeChallenge.css">
+</head>
+<body>
+  <header>
+    <h1><a href="TimeisRunningOutMain.html">Time is running out</a></h1>
+    <nav>
+      <a href="TimeChallenge.html">Time challenge</a>
+      <a href="musicExperience.html">music Experience</a>
+      <a href="TimeManagementTips.html">Time Management Tips</a>
+      <a href="DustBin.html">dust bin</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div id="wrapper" style="margin-left:auto; margin-right:auto;">
+          <h1 id="heading" style="background-color: #8694A6; text-decoration-style: solid; color: #222326; width: 40%; margin-top: 150px; margin-bottom: 10px">Lost Path</h1>
+          <div id="maze">
+              <p style="text-align: center;margin-bottom: 10px">Find the way out of Maze in 30 seconds!</p>
+              <div id="c" style="margin-left:auto; margin-right:auto;margin-bottom: 10px;text-align: center;width: 10%;font-size: large"></div>
+              <canvas id="canvas" width="523" height="523" style="margin-left:auto; margin-right:auto">
+          </canvas>
+          <br>
+              <div id="timerel" style="margin-left:auto; margin-right:auto;margin-top:0px;text-align: center;width: 15%;font-size: large"></div>
+  
+          </div>
+          <div id="myModal" class="modal">
+ 
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2 class="gamehead"></h2>
+                  </div>
+                  <div class="modal-footer">
+                      <h2 id="demo" onmouseover="" style="cursor:pointer;">Play Again?</h2>
+                  </div>
+              </div>
+  
+          </div>
+  
+  
+      </div>
+    <script src="TimeChallenge.js"></script>
+  </main>
+</body>
+</html>
